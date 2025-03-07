@@ -18,32 +18,32 @@ This script automates the installation and configuration of Samba on a Linux sys
 
 ## Installation & Usage
 
-1. Clone the repository or download the script:
-    "git clone https://github.com/yunusozpolat/Samba-Setup.git
-    cd samba-setup"
+### 1. Clone the repository or download the script:
+    git clone https://github.com/yunusozpolat/Samba-Setup.git
+    cd samba-setup
 
-2. Make the script executable:
-    'chmod +x samba_setup.sh'
+### 2. Make the script executable:
+    chmod +x samba_setup.sh
 
-3. Run the script:
-    './samba_setup.sh'
+### 3. Run the script:
+    ./samba_setup.sh
 
-4. Follow the on-screen instructions to enter a Samba username and password.
+### 4. Follow the on-screen instructions to enter a Samba username and password.
 
 ## Verification & Troubleshooting
 After running the script, you can verify that Samba and the firewall are correctly configured using the following commands:
 
 ### Check Samba Service Status
-    'systemctl status smbd'
+    systemctl status smbd
 
 If Samba is not running, start it manually:
-    'sudo systemctl restart smbd'
+    sudo systemctl restart smbd
 
 ### Check UFW Firewall Status
-    'sudo ufw status'
+    sudo ufw status
 
 If Samba is not allowed through the firewall, enable it:
-    'sudo ufw allow samba'
+    sudo ufw allow samba
 
 # Notes
 If the entered passwords do not match, the script will exit.

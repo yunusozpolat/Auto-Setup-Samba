@@ -19,7 +19,7 @@ This script automates the installation and configuration of Samba on a Linux sys
 ## Installation & Usage
 
 ### 1. Clone the repository or download the script:
-    git clone https://github.com/yunusozpolat/Samba-Setup.git
+    git clone https://github.com/yunusozpolat/Auto-Setup-Samba.git
     cd samba-setup
 
 ### 2. Make the script executable:
